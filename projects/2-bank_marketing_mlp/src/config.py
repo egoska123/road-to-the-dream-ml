@@ -1,0 +1,17 @@
+DATA_PATH = "data/raw/bank-full.csv"
+TARGET_COLUMN = "y"
+
+TEST_SIZE = 0.15
+VALID_SIZE = 0.15
+RANDOM_STATE = 42
+
+DROP_COLUMNS = []
+
+BATCH_SIZE = 64
+LEARNING_RATE = 0.001
+NUM_EPOCHS = 50
+PATIENCE = 5
+
+MODEL_SAVE_PATH = "models/best_model.pt"
+
+USE_POS_WEIGHT = True
